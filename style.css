@@ -1,0 +1,481 @@
+*{
+    margin:0px;
+    color:white;
+    font-family:arial;
+    border:border-box;
+
+
+}
+
+.navbar{
+    height:60px;
+    background-color :rgb(28, 83, 59);
+    display:flex;
+    align-items:center;
+    margin-top: 0px;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.nav-logo{
+    height:50px;
+    width:113px;
+    
+}
+
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width: 100px;
+
+}
+.border{
+    border :1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.add-first{
+    color:#cccccc;
+    font-size: 0.7rem;
+    margin-left:17px;
+   
+}
+.add-second{
+    color:white;
+    font-size: 0.95rem;
+    margin-left:6px;
+}
+.add-icon{
+    display:flex;
+    
+}
+.nav-address{
+    height: 35px;
+    width: 70px;
+    padding:5px;
+}
+
+.nav-search{
+    width: 820px;
+    height:40px;
+    display:flex;
+    background-color: pink;
+      font-size: 1rem;
+    border-radius: 5px;
+}
+.nav-jjj{
+    padding:10px;
+    border: 1px solid black;
+    border:none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width:50px;
+    color:black;
+    height:40px;
+
+}
+.nav-searchicon{
+    display:flex;
+    width: 45px;
+    font-size:1.2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+}
+    
+.nav-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+  
+.nav-acc{
+    padding:5px;
+}
+
+.acc-first{
+    font-size: 0.7rem;
+}
+.acc-second{
+    font: size 1.2rem;
+    font-weight:bold;
+}
+ 
+.nav-cart i{ 
+    font-size:1.6rem;
+    font-weight:bold;
+
+
+}
+.nav-cart{
+    padding:5px;
+}
+.nav-search:hover{
+    border:1px solid rgb(255, 174, 0);
+}
+
+.panel {
+    height:39px;
+    background-color:rgb(20, 105, 68);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.panelspace {
+    width:800px;
+}
+.panel1{
+    padding:5px;
+}
+.panelbars{
+    padding:5px;
+    display:flex;
+}
+.panel1:hover{
+
+    border:1px solid white;
+}
+.panelbars:hover{
+    border:1px solid white;
+}
+.coverimage{
+    height:600px;
+    background-image:url("coverimage1.jpg");
+    background-size:cover;
+
+}
+
+
+.shopping{
+    display:flex;
+    color:black;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    position:absolute;
+    top: 410px;
+
+
+    
+}
+
+.box{
+    height:400px;
+    width: 325px;
+    background-color: white;
+    margin-bottom:15px;
+}
+
+.boxcontent{
+    height:350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+
+
+}
+
+.boximage1{
+    height:300px;
+    background-image:url("boximage1.jpg");
+    background-size:cover;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+}
+.boximage2{
+    height:300px;
+    background-image:url("boximage2.jpg");
+    background-size:cover;
+    margin-bottom:10px;
+    margin-top:10px;
+
+}
+.boximage3{
+    height:300px;
+    background-image:url("boximage3.jpg");
+    background-size:cover;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+}
+.boximage4{
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.boximage5{
+    height:300px;
+    background-image:url("boximage5.jpg");
+    background-size:cover;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+}
+.boximage6{
+    height:300px;
+    background-image:url("boximage6.jpg");
+    background-size:cover;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+}
+.boximage7{
+    height:300px;
+    background-image:url("boximage7.jpg");
+    background-size:cover;
+    margin-bottom: 10px;
+    margin-top:10px;
+
+}
+.boximage8{
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top:10px;
+    ;
+
+}
+.small{
+    height:120px;
+    width:120px;
+    background-color: aqua;
+    margin-left: 15px;
+
+}
+
+.background{
+    height:1150px;
+    width:100%;
+    background-color:rgb(208, 208, 208);
+    position:absolute;
+    top:697px;
+    z-index:-1;
+    border:none;
+    
+}
+
+
+
+.movies{
+    height:270px;
+    width:95%;
+    background-color:white;
+    border-radius:6px;
+    position:absolute;
+    top:1250px;
+    margin-left:2.5%; 
+    
+}
+.movie-content{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.image{
+    height:200px;
+    width :170px;
+    border-radius: 8px;
+}
+.movie-image1{
+    background-image: url("movie1.jpg");
+    background-size:cover;
+}
+.movie-image2{
+    background-image: url("movie2.jpg");
+    background-size:cover;
+}
+
+.movie-image3{
+    background-image: url("movie3.jpg");
+    background-size:cover;
+}
+
+.movie-image4{
+    background-image: url("movie4.jpg");
+    background-size:cover;
+}
+
+.movie-image5{
+    background-image: url("movie5.jpg");
+    background-size:cover;
+}
+
+.movie-image6{
+    background-image: url("movie6.jpg");
+    background-size:cover;
+}
+
+.movie-image7{
+    background-image: url("movieimage7.jpg");
+    background-size:cover;
+}
+
+.books{
+    height:270px;
+    width:95%;
+    background-color:white;
+    border-radius:6px;
+    position:absolute;
+    top:1550px;
+    margin-left:2.5%; 
+    
+}
+.book-content{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.image{
+    height:200px;
+    width :170px;
+    border-radius: 8px;
+}
+.book-image1{
+    background-image: url("book1.jpg");
+    background-size:cover;
+}
+.book-image2{
+    background-image: url("book2.jpg");
+    background-size:cover;
+}
+
+.book-image3{
+    background-image: url("book3.jpg");
+    background-size:cover;
+}
+
+.book-image4{
+    background-image: url("book4.jpg");
+    background-size:cover;
+}
+
+.book-image5{
+    background-image: url("book5.jpg");
+    background-size:cover;
+}
+
+.book-image6{
+    background-image: url("book6.jpg");
+    background-size:cover;
+}
+
+.book-image7{
+    background-image: url("book7.jpg");
+    background-size:cover;
+}
+
+.signin{
+    height:300px;
+    background-color:white;
+    position:absolute;
+    top: 1900px;
+    
+    
+
+    
+}
+.sign-acc{
+    height:28px;
+    width:230px;
+    background-color:rgb(209, 129, 54);
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:600px;
+}
+.back{
+    position: absolute;
+    top:2000px;
+    height:60px;
+    width:100%;
+    background-color:rgb(35, 56, 63);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.foot{
+    height:400px;
+    background-color: rgb(27, 39, 44);
+    position:absolute;
+    top:2060px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+    
+
+}
+ul{
+    list-style: none;
+}
+.copyright{
+    position:absolute;
+    top: 2460px;
+    height:50px;
+    width:100%;
+    background-color:rgb(20, 28, 32);
+    padding-top: 25px;
+    padding-left: 38%;
+
+
+}
+.copyright2{
+    padding-left:20px;
+}
+.smallimage1{
+    background-image: url("smallimage1.jpeg");
+    background-size: cover;
+}
+.smallimage2{
+    background-image: url("smallimage2.jpeg");
+    background-size: cover;
+}
+.smallimage3{
+    background-image: url("smallimage3.jpeg");
+    background-size: cover;
+}
+.smallimage4{
+    background-image: url("smallimage4.jpeg");
+    background-size: cover;
+}
+.smallimage5{
+    background-image: url("smallimage5.jpeg");
+    background-size: cover;
+}
+.smallimage6{
+    background-image: url("smallimage6.jpeg");
+    background-size: cover;
+}
+.smallimage7{
+    background-image: url("smallimage7.jpeg");
+    background-size: cover;
+}
+.smallimage8{
+    background-image: url("smallimage8.jpeg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
